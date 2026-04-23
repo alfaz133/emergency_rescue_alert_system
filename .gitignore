@@ -1,0 +1,6 @@
+.vs/
+*.user
+.vscode/
+__pycache__/
+*.pyc
+*.db
