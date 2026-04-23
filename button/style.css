@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#emergencyBtn {
+    width: 50vw;
+    height: 40vh;
+    background-color: #ff0000;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.05s, background-color 0.3s;
+    box-shadow: 0 0 40px rgba(255, 0, 0, 0.3);
+}
+
+    #emergencyBtn:active {
+        transform: scale(0.96);
+    }
