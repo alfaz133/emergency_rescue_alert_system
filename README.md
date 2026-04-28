@@ -17,3 +17,17 @@ Python, Flask, SQLite, HTML, CSS, JavaScript, Google Maps API
 2. Register your device by sending a POST request to /api/devices/register
 3. Run the backend: python backend/app2.py
 4. Open http://localhost:5000/button and http://localhost:5000/dashboard
+
+## Screenshots
+
+### Emergency Button Interface
+![Emergency Button](screenshots/emergency_button.png)
+
+### Monitoring Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### High Priority Alert
+![High Priority Alert](screenshots/high_priority.png)
+
+### Low Priority Alert
+![Low Priority Alert](screenshots/low_priority.png)
